@@ -9,6 +9,17 @@ Such persons often claim that spending time and effort to write a tool that auto
 such people do not adopt a brighter future outlook and are anware that automating simple tasks such as that makes testing less error prone, reliable, easier, 
 faster and cheaper in the long term.
 
+###How to Import into Eclipse
+* **File** -> **Import...** -> **Existing Maven Projects**
+* Click **Next**
+* Click **Browse...** for the **Root Directory**
+* Select and open **RegressionToolHibernate** or **RegressionToolJDBC**
+* Click **Finish**
+* Do a mvn update on the project
+
+###How to run
+* Run com.lucaslouca.app.Regression.java
+
 ## A simplified real life scenario:
 Consider an old system 'S' that is about to be replaced with a newer and cooler system 'C'. Both systems are responsible for managing some sort of
 entity. Lets call that entity a Trade. A Trade in both systems has fictional properties such as an Instrument Name, an ISIN and some sort of unique 
