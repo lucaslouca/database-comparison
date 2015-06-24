@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" 
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
+		<property name="hibernate.connection.driver_class">oracle.jdbc.OracleDriver</property>
+		<property name="hibernate.connection.url">jdbc:oracle:thin:@localhost:1521/servicename</property>
+		<property name="hibernate.connection.username">admin</property>
+		<property name="hibernate.connection.password">secret</property>
+		<property name="hibernate.show_sql">false</property>
+		
+		<mapping class="com.lucaslouca.model.STrade"/>
+
+	</session-factory>
+</hibernate-configuration>
