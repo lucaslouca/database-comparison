@@ -1,7 +1,7 @@
 # database-comparison
 A small tool that illustrates how to compare different database tables using a pre-defined mapping
 
-## What is this?
+###What is this?
 Well, as a software engineer in a big ol' company with a non engineering focus, you are probably familiar with the situation where regression tests
 are being performed manually. This is due to the fact that many of the so called test managers come from a non technical background and are not willing to
 acquire the least amount of technical knowledge. As a result many of them don't have the know-how of what and how such tests can actually be automated. 
@@ -20,7 +20,7 @@ faster and cheaper in the long term.
 ###How to run
 * Run com.lucaslouca.app.Regression.java
 
-## A simplified real life scenario:
+###A simplified real life scenario:
 Consider an old system 'S' that is about to be replaced with a newer and cooler system 'C'. Both systems are responsible for managing some sort of
 entity. Lets call that entity a Trade. A Trade in both systems has fictional properties such as an Instrument Name, an ISIN and some sort of unique 
 Identifier. In both systems, S and C, the trades are being edited and enriched and then persisted into an Oracle database (different database schema 
