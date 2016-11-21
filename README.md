@@ -17,7 +17,7 @@ faster and cheaper in the long term.
 * Do a mvn update on the project
 
 ###How to run
-* Run com.lucaslouca.app.Regression.java
+* Run `com.lucaslouca.app.Regression.java`
 
 ###A simplified real life scenario:
 Consider an old system `S` that is about to be replaced with a newer and cooler system `C`. Both systems are responsible for managing some sort of
