@@ -1,6 +1,6 @@
+###What is this?
 A small tool that illustrates how to compare different database tables using a pre-defined mapping
 
-###What is this?
 Well, as a software engineer in a big ol' company with a non engineering focus, you are probably familiar with the situation where regression tests
 are being performed manually. This is due to the fact that many of the so called test managers come from a non technical background and are not willing to
 acquire the least amount of technical knowledge. As a result many of them don't have the know-how of what and how such tests can actually be automated. 
