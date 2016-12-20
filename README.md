@@ -1,4 +1,5 @@
-###What is this?
+**What is this?**
+
 A small tool that illustrates how to compare different database tables using a pre-defined mapping.
 
 Well, as a software engineer in a big ol' company with a non engineering focus, you are probably familiar with the situation where regression tests
@@ -8,7 +9,8 @@ Such persons often claim that spending time and effort to write a tool that auto
 such people do not adopt a brighter future outlook and are anware that automating simple tasks such as that makes testing less error prone, reliable, easier, 
 faster and cheaper in the long term.
 
-###A simplified real life scenario:
+**A simplified real life scenario:**
+
 Consider an old system `S` that is about to be replaced with a newer and cooler system `C`. Both systems are responsible for managing some sort of
 entity. Lets call that entity a `Trade`. A `Trade` in both systems has fictional properties such as an `Instrument Name`, an `ISIN` and some sort of unique 
 `Identifier`. In both systems, `S` and `C`, the trades are being edited and enriched and then persisted into an Oracle database (different database schema 
@@ -25,7 +27,8 @@ property is now called `tradeIsin` in the new system. If system `S` has persiste
 This sample code illustrates how to connect to two different databases, read a given number of trades and compare their properties for equality based on a 
 predefined mapping. A modified version of this code was used in a real working environment within a company. A JDBC and a Hibernat/JDBC version is available.
 
-###How to Import into Eclipse
+**How to Import into Eclipse**
+
 * **File** -> **Import...** -> **Existing Maven Projects**
 * Click **Next**
 * Click **Browse...** for the **Root Directory**
@@ -33,5 +36,6 @@ predefined mapping. A modified version of this code was used in a real working e
 * Click **Finish**
 * Do a mvn update on the project
 
-###How to run
+**How to run**
+
 * Run `com.lucaslouca.app.Regression.java`
